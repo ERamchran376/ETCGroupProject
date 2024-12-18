@@ -12,9 +12,9 @@ You should get the following output:
 
 All routes will be testable from postman once this step is completed.
 
-Step 2: Open another terminal window and navigate to the directory /src/quasar-project/src.
+Step 3: Open another terminal window and navigate to the directory /src/quasar-project/src.
 
-Step 3: Run quasar dev.
+Step 4: Run quasar dev.
 This will check all quasar dependencies and once done, it will open the app in a browser window.
 You should get the following output:
 App • Opening default browser at http://localhost:9000/ 
