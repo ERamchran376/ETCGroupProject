@@ -1,0 +1,37 @@
+{
+  "name": "etgproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-localstorage": "^3.0.5",
+    "pg": "^8.13.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/sqlite3": "^3.1.11",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
