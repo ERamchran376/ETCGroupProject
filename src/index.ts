@@ -164,9 +164,9 @@ app.post('/records', async (req, res) => {
       }
   });
   //route functionality
-    const records = req.body;
+    let records = req.body;
     if (!Array.isArray(records)) {
-      return res.status(400).json({ error: 'Invalid data format. Expected an array.' });
+      records = records.data;
     }
 
     const query = `INSERT INTO records (id,title,description,barcode,updated_at)
