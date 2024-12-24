@@ -5,7 +5,7 @@ Steps to run app:
 
 Step 1: Open terminal and navigate to the directory /src/.
 
-Step 2: Run node index.ts.
+Step 2: Run node index.js.
 You should get the following output: 
 <date&time stamp> Server running on http://localhost:3000
 <date&time stamp> Connected to the PostgreSQL database
